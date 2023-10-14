@@ -10,21 +10,19 @@ package oop.Inheritance;
  */
 public class inheriting_private_member2 extends inheriting_private_member {
    
-    
     private String qualification;
     
-    public void setQua(String qua){
-        qualification = qua;
-    }
-    public String getQua(){
-    return qualification;
-}
-    
-    void display(){
-        System.out.println(getName());
-        System.out.println(getAge());
-        System.out.println(getQua());
-    }
-    
+  public String getQualification(){
+      return qualification;
+  }
+  public void setQualification(String qualification){
+      this.qualification = qualification;
+  }
+  
+  void display2(){
+      display1();
+      System.out.println("Qualification: "+getQualification());
+  }
+  
 
 }

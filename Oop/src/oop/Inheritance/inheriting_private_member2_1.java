@@ -9,19 +9,17 @@ package oop.Inheritance;
  * @author abdul
  */
 public class inheriting_private_member2_1 {
-    public static void main(String[] args) {
-        inheriting_private_member2 t = new inheriting_private_member2();
-        t.setName("Anisul Islam");
-        t.setAge(33);
-        t.setQua("B.Sc in CSE");
-        t.display();
-       
-         inheriting_private_member2 t1 = new inheriting_private_member2();
-        t1.setName("Anisul Islam");
-        t1.setAge(33);
-        t1.setQua("B.Sc in CSE");
-        t1.display();
-             
-    }
-    
+  public static void main(String[] args){
+      inheriting_private_member2 in = new inheriting_private_member2 ();
+      in.setName("Abdullah Mohammed");
+      in.setAge(23);
+      in.setQualification("BSc in CSE");
+      in.display2();
+      
+        inheriting_private_member2 in1 = new inheriting_private_member2 ();
+      in1.setName("Abdullah");
+      in1.setAge(23);
+      in1.setQualification("BSc in CSE");
+      in1.display2();
+  }
 }
